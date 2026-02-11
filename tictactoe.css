@@ -1,0 +1,85 @@
+body{
+   background: url("./background.jpg") no-repeat center center fixed;
+    background-size: cover;
+   font-family : Arial, Helvetica, sans-serif;
+   color: white;
+   text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+hr {
+    width: 450px;
+    height: 2px;
+    background-color: skyblue;
+    border: 0;
+}
+
+#game-board{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: skyblue;
+    color: white;
+    border: 6px solid lightblue;
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+}
+
+.game-cell{
+    border: 6px solid lightblue;
+    border-radius: 2px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winning-game-cell {
+    background-color: white;
+    color: skyblue;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#buttons button {
+    height: 50px;
+    width: 150px;
+    border: 5px solid lightblue;
+    border-radius: 5px;
+    background-color: skyblue;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer; 
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#score-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
