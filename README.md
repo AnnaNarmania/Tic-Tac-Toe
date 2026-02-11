@@ -1,5 +1,7 @@
 # Tic Tac Toe – Extended Version
 
+Play online: [Tic Tac Toe By Ann](https://annanarmania.github.io/Tic-Tac-Toe/)
+
 This project is based on the Tic Tac Toe tutorial by [Kenny Yip](https://youtu.be/LD9UEC7AI7g?si=YAFrZX7ddqQgUplt).  
 
 ## Added Features
